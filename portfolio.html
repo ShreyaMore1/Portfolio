@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awsome/4.1.0/css/font-awsome.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/bf9cabec0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="log0.jpg" class="logo">
+            <ul id="sidemenu">                
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education-section">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+       <div class="header-text">
+       <h1> Hi, I'm <span>Shreya More</span> <br> from Pune </h1>
+       <p>I'm a 2nd Year B.Tech Computer Science and Engineering student.</p>
+       </div>
+    </div>
+
+   </div>
+   <!---------------about------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img2.jpg" alt="shreya">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Shreya More, a passionate student pursuing a Bachelor's in Computer Science and Engineering. I'm deeply fascinated by the world of technology and its endless possibilities. From coding to problem-solving, I thrive on the challenges that come with this dynamic field. I'm 20 years old from Pune Maharashtra. I'm currently in 4th Year and 7th Sem of my College.  </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('certification')">Certification</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <li><span>Python</span><br>Python Coding Language</li>
+                    <li><span>C </span><br>C language</li>
+                    <li><span>C++</span><br>basic coding in C++</li>
+                    <li><span>HTML</span><br>Hyper Text MArkup Language</li>
+                    <li><span>CSS</span><br>Cascading Style Sheets</li>
+                    <li><span>JS</span><br>Java Script</li>
+                    <li><span>SQl</span><br>Structured Query Language</li>
+                    
+                </div>
+                <div class="tab-contents " id="education">
+                    <li><span>B.Tech Computer Science Engineering (2022-2026)</span><br> Current SGPA 8.2 % </li>
+                    <li><span>12th (Science) Boards (2021-2022)</span><br> 75%  </li>
+                    <li><span>10th Boards (2019-2020)</span><br> 85% </li>
+                </div>
+                <div class="tab-contents" id="certification">
+                    <li><span>C & C++ Certification</span><br>By: Intronix Solutions </li>
+                    <li><span>Python Certification </span><br> By: Kaggle  </li>
+                    <li><span>Operating Systems Certification</span><br>By: Cisco  </li>
+                    <li><span>Cyber Security Fundamentals </span><br> By: Mind Luster </li>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------Education------------->
+<div id="education-section">
+    <div class="container">
+        <h1 class="sub-title">Education</h1>
+        <div class="education-list">
+            <div><h2>B.Tech CSE</h2>
+               <p>I'm doing my graduation from Ajeenkya DY Patil University. I'm 2nd Year student. My SGPA of current term is <b>8.2%</b> </p>
+            </div>
+            <div><h2>12th (Science) CBSE</h2>
+                <p> I did my 12th  from Kendriya Vidayalaya No.1 Pune and I scored <b>75%<b> in my 12th Boards. </p>
+             </div>
+             <div><h2>10th CBSE</h2>
+                <p> I did my 10th  from Kendriya Vidayalaya No.1 Makarpura Vadodara Gujarat  and I secured <b>85%</b> in my 10th Boards.</p>
+             </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="s Python.png">
+                
+            </div>
+            <div class="certificate">
+                <img src="certificate.jpg">
+                
+            </div>
+            <div class="certificate">
+                <img src="cisco.png">
+                
+            </div>
+            <div class="certificate">
+                <img src="cyber.png">
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<!----------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class= "fas fa-paper-plane"></i>shreyamore571@gmail.com</p>
+                <p><i class= "fas fa-phone-square-alt"></i>+918080811240</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/invites/contact/?i=1s3mzeuupl01d&utm_content=3timsxt"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shreya-more-7b86452a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://telegram.org/dl"><i class="fab fa-telegram"></i></a>
+                    
+                </div>
+                <a href="cv.pdf" download class="btn btn2">Download CV </a>
+                
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+                <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+  <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbwnqbhgBMZiPixf484GqguwxG8D1A_Y_rXOj0K-kVcuTWhUoj_fvy9EKBvPTzXKPmvfTQ/exec"
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
